@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MCOEDtest" verbose="1">
+  <test name="Smoke Test">
+    <classes>
+      <class name="findParcel.ValidateOperationalLayersOnLoad"/>
+      <class name="findParcel.SiteSpecificIncentives"/>
+      <class name="findParcel.BlockAndLotSearch"/>
+      <class name="findParcel.PropertyClass"/>
+      <class name="findParcel.ContentsOfLayers"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
