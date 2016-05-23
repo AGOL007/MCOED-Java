@@ -1,0 +1,8 @@
+======================================================================================
+Exception time     : 2016-03-29 16:02:25 Tue
+File name          : SeleniumActions.java
+Class name         : seleniumActions.SeleniumActions
+Method name        : openContentGrid
+Exception name     : WebDriverException
+Screenshot path    : E:\MCOED\Screenshots\2016-03-29_openContentGrid_screenshot.png
+======================================================================================

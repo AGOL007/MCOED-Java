@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MCOEDtest]">
+  <test name="Smoke Test(failed)">
+    <classes>
+      <class name="findParcel.BlockAndLotSearch">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="blockAndLotSearch" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- findParcel.BlockAndLotSearch -->
+      <class name="findParcel.ValidateOperationalLayersOnLoad">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- findParcel.ValidateOperationalLayersOnLoad -->
+      <class name="findParcel.SiteSpecificIncentives">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- findParcel.SiteSpecificIncentives -->
+      <class name="findParcel.PropertyClass">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- findParcel.PropertyClass -->
+      <class name="findParcel.ContentsOfLayers">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- findParcel.ContentsOfLayers -->
+    </classes>
+  </test> <!-- Smoke Test(failed) -->
+</suite> <!-- Failed suite [MCOEDtest] -->

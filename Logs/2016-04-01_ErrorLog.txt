@@ -1,0 +1,32 @@
+======================================================================================
+Exception time     : 2016-04-01 12:43:11 Fri
+File name          : SeleniumActions.java
+Class name         : seleniumActions.SeleniumActions
+Method name        : openContentGrid
+Exception name     : WebDriverException
+Screenshot path    : E:/MCOED/Screenshots/2016-04-01_124257_openContentGrid_screenshot.png
+======================================================================================
+======================================================================================
+Exception time     : 2016-04-01 15:39:45 Fri
+File name          : SeleniumActions.java
+Class name         : seleniumActions.SeleniumActions
+Method name        : openContentGrid
+Exception name     : WebDriverException
+Screenshot path    : E:/MCOED/Screenshots/2016-04-01_033943_openContentGrid_screenshot.png
+======================================================================================
+======================================================================================
+Exception time     : 2016-04-01 15:48:48 Fri
+File name          : SeleniumActions.java
+Class name         : seleniumActions.SeleniumActions
+Method name        : openContentGrid
+Exception name     : WebDriverException
+Screenshot path    : E:/MCOED/Screenshots/2016-04-01_034847_openContentGrid_screenshot.png
+======================================================================================
+======================================================================================
+Exception time     : 2016-04-01 18:03:36 Fri
+File name          : SeleniumActions.java
+Class name         : seleniumActions.SeleniumActions
+Method name        : openContentGrid
+Exception name     : WebDriverException
+Screenshot path    : E:/MCOED/Screenshots/2016-04-01_060335_openContentGrid_screenshot.png
+======================================================================================

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MCOEDtest" duration-ms="323142" started-at="2016-04-01T12:30:20Z" finished-at="2016-04-01T12:35:44Z">
+    <groups>
+    </groups>
+    <test name="Smoke Test" duration-ms="323142" started-at="2016-04-01T12:30:20Z" finished-at="2016-04-01T12:35:44Z">
+      <class name="findParcel.ValidateOperationalLayersOnLoad">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:findParcel.ValidateOperationalLayersOnLoad@864e92]" name="beforeTest" is-config="true" duration-ms="74663" started-at="2016-04-01T18:00:20Z" finished-at="2016-04-01T18:01:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="validateOperationalLayers()[pri:0, instance:findParcel.ValidateOperationalLayersOnLoad@864e92]" name="validateOperationalLayers" duration-ms="705" started-at="2016-04-01T18:01:35Z" finished-at="2016-04-01T18:01:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOperationalLayers -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:findParcel.ValidateOperationalLayersOnLoad@864e92]" name="afterTest" is-config="true" duration-ms="894" started-at="2016-04-01T18:01:36Z" finished-at="2016-04-01T18:01:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- findParcel.ValidateOperationalLayersOnLoad -->
+      <class name="findParcel.SiteSpecificIncentives">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:findParcel.SiteSpecificIncentives@a6d14e]" name="beforeTest" is-config="true" duration-ms="38479" started-at="2016-04-01T18:01:37Z" finished-at="2016-04-01T18:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="siteSpecificIncentives(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:findParcel.SiteSpecificIncentives@a6d14e]" name="siteSpecificIncentives" duration-ms="33072" started-at="2016-04-01T18:02:16Z" data-provider="searchProvider" finished-at="2016-04-01T18:02:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Urban Enterprise Zone (UEZ)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UEZ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Parcel Id]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siteSpecificIncentives -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:findParcel.SiteSpecificIncentives@a6d14e]" name="afterTest" is-config="true" duration-ms="557" started-at="2016-04-01T18:02:49Z" finished-at="2016-04-01T18:02:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- findParcel.SiteSpecificIncentives -->
+      <class name="findParcel.ContentsOfLayers">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:findParcel.ContentsOfLayers@5bef66]" name="beforeTest" is-config="true" duration-ms="41128" started-at="2016-04-01T18:04:28Z" finished-at="2016-04-01T18:05:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="contentsOfAcreage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:findParcel.ContentsOfLayers@5bef66]" name="contentsOfAcreage" duration-ms="33357" started-at="2016-04-01T18:05:09Z" data-provider="searchProvider" finished-at="2016-04-01T18:05:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acreage (Acre)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Acreage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentsOfAcreage -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:findParcel.ContentsOfLayers@5bef66]" name="afterTest" is-config="true" duration-ms="715" started-at="2016-04-01T18:05:43Z" finished-at="2016-04-01T18:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- findParcel.ContentsOfLayers -->
+      <class name="findParcel.BlockAndLotSearch">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:findParcel.BlockAndLotSearch@d5c04e]" name="beforeTest" is-config="true" duration-ms="37860" started-at="2016-04-01T18:02:49Z" finished-at="2016-04-01T18:03:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="blockAndLotSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:findParcel.BlockAndLotSearch@d5c04e]" name="blockAndLotSearch" duration-ms="8525" started-at="2016-04-01T18:03:27Z" data-provider="searchProvider" finished-at="2016-04-01T18:03:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Piscataway Township]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[812]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PISCATAWAY TWP ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at findParcel.BlockAndLotSearch.blockAndLotSearch(BlockAndLotSearch.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blockAndLotSearch -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:findParcel.BlockAndLotSearch@d5c04e]" name="afterTest" is-config="true" duration-ms="734" started-at="2016-04-01T18:03:36Z" finished-at="2016-04-01T18:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- findParcel.BlockAndLotSearch -->
+      <class name="findParcel.PropertyClass">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:findParcel.PropertyClass@33ce2c]" name="beforeTest" is-config="true" duration-ms="42239" started-at="2016-04-01T18:03:37Z" finished-at="2016-04-01T18:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="propertyClass(java.lang.String)[pri:0, instance:findParcel.PropertyClass@33ce2c]" name="propertyClass" duration-ms="9102" started-at="2016-04-01T18:04:19Z" data-provider="searchProvider" finished-at="2016-04-01T18:04:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Farm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- propertyClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:findParcel.PropertyClass@33ce2c]" name="afterTest" is-config="true" duration-ms="374" started-at="2016-04-01T18:04:28Z" finished-at="2016-04-01T18:04:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- findParcel.PropertyClass -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- MCOEDtest -->
+</testng-results>
